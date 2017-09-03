@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>William Gibson's "Johnny Mnemonic"</title>
+	<link rel="stylesheet" type="text/css" href="johnny.css">
+	<link rel="icon" href="https://cdn2.iconfinder.com/data/icons/once-upon-a-time/60/story-128.png"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Some use of JQuery to toggle about the editor and edition divs. Really just me messing around. -->
+	<script>
+		$(document).ready(function(){
+		    $("#edition").click(function(){
+		        $("#the_edition").toggle();
+		    });
+		});
+
+		$(document).ready(function(){
+		    $("#editor").click(function(){
+		        $("#the_editor").toggle();
+		    });
+		});
+	</script>
+</head>
+<body>
+
+<ul class="topnav" id="myTopnav">
+  <li><a href="index.html">Title Page</a></li>
+  <li><a href="introduction.html">Introduction</a></li>
+  <li><a href="johnny.html">Text</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
+
+<h1 class="title">Johnny Mnemonic</h1>
+<h3 class="title"><em>by <a href="https://en.wikipedia.org/wiki/William_Gibson" target="_blank"> William Gibson</a></em></h3> <br />
+<h3><em>Digital Edition by PJ Onusconich</em></h3>
+
+<p class="img">
+<img src="https://images-na.ssl-images-amazon.com/images/I/511VJX4A9GL._SX334_BO1,204,203,200_.jpg">
+</p>
+<h3>About: <button id="edition">The Edition</button> - <button id="editor">The Editor</button></h3>
+<div id="the_edition" class="hidden">
+	<h3 class="title">The Edition:</h3>
+	<p class="edition"> This is a digital edition of William Gibson's "Johnny Mnemonic" created for the HUMN 271 course at Bucknell University. It is being used as an exericse to practice utilizing HTML, CSS, and Javascript as well as to demonstrate the effects of presentation on an indivudual's reading experience. This site was created and developed by me; however, the story is purely Gibson's work.</p>
+</div>
+
+<div id="the_editor" class="hidden">
+	<h3 class="title">The Editor:</h3>
+	<img class="resize" src="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/936780_3000683073719_1359700787_n.jpg?oh=40cfc6449761d0ab0f2e2f07c73863b3&oe=58410E63">
+	<p class="self"> My name is PJ Onusconich and I was born and raised in Manhattan Beach, California. I graduated from Mira Costa High School in 2014 where I was a member of the varsity football and track and field teams. Currently, I'm a Junior student-athlete at Bucknell University studying computer science as well as a member of the track and field team.</p>
+</div>
+</body>
+</html>

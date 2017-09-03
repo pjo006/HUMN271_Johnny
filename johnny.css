@@ -1,0 +1,198 @@
+/* Standard paragraph */
+p{
+	font-size: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+/* Center an image */
+p.img{
+	text-align: center;
+}
+
+/* Formatting about the editor paragraph */
+p.self{
+	padding-right: 325px;
+	font-size: 16px;
+	padding-top: 50px;
+}
+
+/* Formatting about the edition paragraph */
+p.edition{
+	padding-right: 325px;
+	padding-left: 325px;
+	font-size: 16px;
+}
+
+/* Formatting the introduction paragraphs */
+p.intro{
+	padding-right: 250px;
+	padding-left: 250px;
+	font-size: 16px;
+}
+
+/* Centering links */
+p.link{
+	text-align: center;
+	font-size: 14px;
+}
+
+/* Standard h1 formatting */
+h1{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	color: Blue;
+}
+
+/* Slightly larger h1 for title page */
+h1.title{
+	font-size: 60px;
+	color: DeepSkyBlue;
+}
+
+/* Standard h3 formatting */
+h3{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+/* Slightlly larger h3 for title page */
+h3.title{
+	font-size: 30px;
+	color: red;
+}
+
+/* Formatting buttons */
+button{
+	background-color: #666666;
+	font-family: Georgia;
+	border: none;
+	text-align: center;
+	color: #e6e6e6;
+	font-size: 16px;
+}
+
+/* Formatting hover effect for buttons */
+button:hover{
+	background-color: DarkGoldenRod;
+	font-family: Georgia;
+	border: none;
+	text-align: center;
+	color: #e6e6e6;
+	font-size: 16px;
+}
+
+/* Standard link formatting */
+a{
+	color: red;
+	text-decoration: none;
+}
+/* Formatting links for sources */
+a.source{
+	color: white;
+	text-decoration: none;
+}
+
+/* Formatting hover effect for links */
+a:hover{
+	color: white;
+	background-color: red;
+}
+
+/* Formatting background color and font style and color for website*/
+body{
+	background-color:  #262626;
+	color: #e6e6e6;
+	font-family: Georgia;
+}
+
+/* Resizing image class */
+.resize{
+	width: 200px;
+	height: auto;
+	margin-left: 325px;
+	margin-right: 10px;
+	float: left;
+}
+
+/* Another resizing image class */
+.resize2{
+	width: 200px;
+	height: auto;
+	margin-left: 250px;
+	margin-right: 10px;
+	float: left;
+}
+
+/* Red */
+.red{
+	color: red;
+}
+
+/* Dark Red */
+.darkred{
+	color: DarkRed;
+}
+
+/* Blue */
+.blue{
+	color: blue;
+}
+
+/* Sky Blue */
+.skyblue{
+	color: DeepSkyBlue;
+}
+
+/* White */
+.white{
+	color: white;
+}
+
+/* formatting intro div (not used anymore I think. scared to get rid of it) */
+#intro{
+	width: 100%;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+/* Old header formatting before implementing javascript function */
+#header{
+	background: grey;
+	text-align: center;
+}
+/* Hides divs that will be toggled*/
+.hidden{
+	display: none;
+}
+
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: DarkGoldenRod;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
